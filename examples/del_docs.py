@@ -15,6 +15,7 @@ for row in rows:
     doc_id = row['id']
     doc_rev = row['value']['rev']
     url = 'http://127.0.0.1:5984/{}/{}?rev={}'.format(db_name, doc_id, doc_rev)
+    # url = 'http://127.0.0.1:5984/{}/{}?a={}&b={}&c={}'.format(db_name, doc_id, a, b, c)
     response = requests.delete(url)
     print(response.text)
 

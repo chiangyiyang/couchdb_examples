@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "a01",
+      "name": "a02",
       "sensors": "dht11",
       "longitude": 121.5,
       "latitude": 23.5
