@@ -1,0 +1,1 @@
+curl -X PUT -H "Content-Type:application/json" http://admin:1234@localhost:5984/logs/_design/utils -d @add_with_timestamp.json

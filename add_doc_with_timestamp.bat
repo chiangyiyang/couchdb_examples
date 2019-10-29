@@ -1,0 +1,1 @@
+curl  -H "Content-Type:application/json" -X POST http://localhost:5984/logs/_design/utils/_update/add_with_timestamp -d @sample.json
