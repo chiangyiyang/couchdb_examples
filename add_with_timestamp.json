@@ -1,5 +1,5 @@
 {
     "updates": {
-      "add_with_timestamp": "function (doc, req) { var measurement = JSON.parse(req.body); measurement._id = new Date(); return [measurement, 'created'];}"
+      "add_with_timestamp": "function (doc, req) { var measurement = JSON.parse(req.body); measurement._id = new Date(); return [measurement, '{\"ok\":true}'];}"
     }
 }
