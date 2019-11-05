@@ -1,0 +1,18 @@
+{
+    "docs": [
+        {
+            "_id": "org.couchdb.user:new_user",
+            "name": "new_user",
+            "type": "user",
+            "roles": [],
+            "password": "1234"
+        },
+        {
+            "_id": "org.couchdb.user:new_user2",
+            "name": "new_user2",
+            "type": "user",
+            "roles": [],
+            "password": "1234"
+        }
+    ]
+}

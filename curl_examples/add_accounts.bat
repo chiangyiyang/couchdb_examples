@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type:application/json" http://admin:1234@localhost:5984/_users/_bulk_docs -d @accounts_doc.json

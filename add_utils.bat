@@ -1,2 +1,0 @@
-REM curl -X PUT -H "Content-Type:application/json" http://admin:1234@localhost:5984/logs/_design/utils -d @add_with_timestamp.json
-curl -X PUT -H "Content-Type:application/json" https://2591e5cd-123b-4b5c-823f-41ac3031a1e2-bluemix.cloudant.com/logs/_design/utils -d @add_with_timestamp.json

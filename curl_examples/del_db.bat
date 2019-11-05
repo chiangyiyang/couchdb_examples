@@ -1,0 +1,1 @@
+curl -X DELETE http://admin:1234@localhost:5984/new_db_name
